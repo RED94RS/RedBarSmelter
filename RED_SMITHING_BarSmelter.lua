@@ -460,7 +460,7 @@ local function onRepaint()
         if lastEvent.skillName then
             if lastEvent.skillName == SCRIPT_SKILL then
                 xpEvents = xpEvents + 1
-                print("XP Event: " .. xpEvents)
+               -- print("XP Event: " .. xpEvents)
             end
         end
     end
